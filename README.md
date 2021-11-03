@@ -13,3 +13,5 @@ To achieve classification of transmissions, machine learning techniques are empl
 Using neural networks we are able to efficiently classify transmissions, depending on the combination of features. In this case we assume that the receiver can be trained with both "good" and "bad" examples.
 Using an autoencoder we model the scenario in which the receiver has only knowledge about what legitimate transmissions look like and thus, malicious transmissions will be everything that looks "unordinary".
 
+To evaluate results we compute the accuracy of the models and we trace the DET curve, to see how the classification threshold influences false positives and false negatives.
+
